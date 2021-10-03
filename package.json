@@ -1,0 +1,30 @@
+{
+  "name": "sample1",
+  "version": "0.0.1",
+  "keywords": [],
+  "license": "ISC",
+  "author": "ali memar",
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel index.html --open",
+    "start": "npm run build && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:css": "postcss ./css/*.css -o ./css/style.css -w",
+    "build:css": "postcss ./css/main.css -o ./css/style.css",
+    "production:css": "NODE_ENV=production postcss ./css/main.css -o ./css/style.css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "parcel-bundler": "^1.12.4",
+    "postcss": "^7.0.36",
+    "postcss-cli": "^7.1.2",
+    "sass": "^1.37.5",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.7"
+  },
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "description": "",
+  "dependencies": {}
+}

@@ -1,0 +1,190 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>coffee</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="./tailwind.css">
+  <link rel="stylesheet" href="./css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <nav class="shadow-lg">
+    <div class="wrapper-nav container mw-1080 flex justify-between p-5">
+      <div class="brand">
+        <h3 class="font-bold"><a href="#">HotCoffee</a></h3>
+      </div>
+      <div class="wrapper-nav-links flex items-center gap-3 sm:gap-7">
+        <div class="nav-item-link"><a href="#">Home</a></div>
+        <div class="nav-item-link"><a href="#">Articles</a></div>
+        <div class="nav-item-link hover:opacity-60 transition"><a href="#"><i><img src="img/insta.svg" alt="instagram"></i></a>
+        </div>
+        <div class="nav-item-link hover:opacity-60 transition"><a href="#"><i><img src="img/twitter.svg" alt="twitter"></i></a>
+        </div>
+        <div class="nav-item-link hover:opacity-60 transition"><a href="#"><i><img src="img/linkedin.svg" alt="linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <div class="wrapper-header mw-1080 flex justify-around lg:justify-between relative">
+      <div class="side-left flex flex-col justify-center items-start">
+        <h1 class="font-bold text-left text-xl sm:text-3xl md:text-5xl lg:text-6xl">Make better <br> coffee<i><img
+              class="inline -mt-3 ml-1 w-10 sm:w-14 md:w-16" src="img/coffee.svg" alt="coffee"></i></h1>
+        <p class="mt-3 text-sm md:text-2xl"><a href="#">why learn how to blog?</a></p>
+      </div>
+      <div class="side-right py-6 sm:py-10 md:py-12 max-w-xs sm:max-w-sm md:max-w-md">
+        <img class="object-cover object-center w-full h-full mx-auto" src="img/header.png" alt="">
+      </div>
+      <div class="hidden absolute h-full w-full"><img class="h-full w-full src="img/bg-black.png" alt=""></div>
+    </div>
+  </header>
+
+  <Section id="articles">
+    <div class="wrapper-articles container mw-1080 mt-8">
+      <div class="new-article border shadow rounded">
+        <div class="content-article flex flex-col sm:flex-row">
+          <div class="description w-full sm:w-7/12 p-4 sm:px-12 flex flex-col justify-center order-2 sm:order-1">
+            <h2 class="text-xl sm:text-2xl md:text-3xl"><a href="#">long established</a></h2>
+            <p class="mt-5 text-sm sm:text-base">
+              It is a long established fact that a reader will be distracted by the readable content of a page when
+              looking at its layout. The point of using Lorem Ipsum is that....
+            </p>
+            <div class="info-article flex justify-between mt-6">
+              <div class="date-article">
+                <p class="text-xs sm:text-base">May 20th 2020</p>
+              </div>
+              <div class="readmore font-bold"><a href="#" class="text-xs sm:text-base">Read more...</a></div>
+            </div>
+          </div>
+          <div class="imgpost w-full sm:w-5/12 h-60 sm:h-auto order-1 sm:order-2"><img
+              class="object-cover object-center h-full w-full" src="img/new-article.png" alt="post"></div>
+        </div>
+      </div>
+      <div class="last-articles overflow-x-scroll scroll-slider flex gap-8 mt-8 p-0">
+        <div class="item-last-article rounded w-1/3 mw shadow-md flex flex-col">
+          <div class="img-article h-52 p-1"><img class="w-full h-full object-cover object-center" src="img/post1.png"
+              alt=""></div>
+          <div class="content-article p-5">
+            <h2 class="text-xl"><a href="#">long established</a></h2>
+            <p class="mt-3 text-xs sm:text-base">
+              It is a long established fact that a reader will be distracted by the readable content of a page when
+              looking at its layout. The point of using Lorem Ipsum is that....
+            </p>
+            <div class="info-article flex justify-between mt-6">
+              <div class="date-article">
+                <p class="text-xs sm:text-base">May 20th 2020</p>
+              </div>
+              <div class="readmore font-bold"><a href="#" class="text-xs sm:text-base">Read more...</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="item-last-article rounded w-1/3 shadow-md">
+          <div class="img-article h-52 p-1"><img class="w-full h-full object-cover object-center" src="img/post2.png"
+              alt=""></div>
+          <div class="content-article p-5">
+            <h2 class="text-xl"><a href="#">long established</a></h2>
+            <p class="mt-3 text-xs sm:text-base">
+              It is a long established fact that a reader will be distracted by the readable content of a page when
+              looking at its layout. The point of using Lorem Ipsum is that....
+            </p>
+            <div class="info-article flex justify-between mt-6">
+              <div class="date-article">
+                <p class="text-xs sm:text-base">May 20th 2020</p>
+              </div>
+              <div class="readmore font-bold"><a href="#" class="text-xs sm:text-base">Read more...</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="item-last-article rounded w-1/3 shadow-md">
+          <div class="img-article h-52 p-1"><img class="w-full h-full object-cover object-center" src="img/post3.png"
+              alt=""></div>
+          <div class="content-article p-5">
+            <h2 class="text-xl"><a href="#">long established</a></h2>
+            <p class="mt-3 text-xs sm:text-base">
+              It is a long established fact that a reader will be distracted by the readable content of a page when
+              looking at its layout. The point of using Lorem Ipsum is that....
+            </p>
+            <div class="info-article flex justify-between mt-6">
+              <div class="date-article">
+                <p class="text-xs sm:text-base">May 20th 2020</p>
+              </div>
+              <div class="readmore font-bold"><a href="#" class="text-xs sm:text-base">Read more...</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </Section>
+
+  <Section id="important-article" class="container mw-1080">
+    <div class="wrapper-important-article flex flex-col sm:flex-row mt-8">
+      <div class="content-article p-3 md:px-12 w-full sm:w-5/12 flex flex-col justify-center order-2 sm:order-1">
+        <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl"><a href="#">What is Lorem <br class="hidden sm:block"> Ipsum?</a></h2>
+        <p class="mt-5 text-xs sm:text-base">
+          It is a long established fact that a reader will be distracted by the readable content of a page when looking
+          at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution...
+        </p>
+        <div class="info-article flex justify-between mt-6">
+          <div class="date-article">
+            <p class="text-xs sm:text-base">May 20</p>
+          </div>
+          <div class="readmore font-bold"><a href="#" class="text-xs sm:text-base">Read more...</a></div>
+        </div>
+      </div>
+      <div class="img-important-article w-full sm:w-7/12 h-60 sm:h-auto order-1 sm:order-2"><img
+          class="object-cover object-center w-full h-full" src="img/important-post.png" alt="">
+      </div>
+    </div>
+    <div class="seemore float-right text-white"><a href="#">See more <i><img class="inline" src="img/arrow-down.svg"
+            alt="down"></i></a></div>
+  </Section>
+
+  <div class="clear-both"></div>
+
+  <footer class="border-t mt-9">
+    <div
+      class="wrapper-footer container mw-1080 flex flex-col gap-3 items-center sm:flex-row justify-between py-3 sm:py-6">
+      <div class="copyright">
+        <p class="text-sm md:text-base text-black"><span class="font-bold">hotcoffee</span> 2021 copyright all rights
+          reserved</p>
+      </div>
+      <div class="social flex items-center gap-6">
+        <div class="hover:opacity-60"><a href="#"><i><img src="img/insta.svg" alt="instagram"></i></a></div>
+        <div class="hover:opacity-60"><a href="#"><i><img src="img/twitter.svg" alt="twitter"></i></a></div>
+        <div class="hover:opacity-60"><a href="#"><i><img src="img/linkedin.svg" alt="linkedin"></i></a></div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
